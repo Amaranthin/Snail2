@@ -27,6 +27,8 @@ public class Snail {
             for(int y=0; y<n; y++)
             {
                 if(snail[x][y]<10) System.out.print("0");
+
+
                 System.out.print(snail[x][y]+" ");
             }
             System.out.println();
